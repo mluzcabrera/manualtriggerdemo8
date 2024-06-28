@@ -13,4 +13,4 @@ jobs:
         shell: sh
         run: |
           sleep 60s
-          echo "hello world wf1 main"
+          echo "hello world push"
