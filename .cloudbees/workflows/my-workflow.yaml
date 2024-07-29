@@ -14,4 +14,4 @@ jobs:
         shell: sh
         run: |
           sleep 60s
-          echo "PARAMONE VALUE ${{ inputs.paramone }}"
+          echo "PARAMONE VALUE "
