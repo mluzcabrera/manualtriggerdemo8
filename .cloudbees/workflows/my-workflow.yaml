@@ -15,4 +15,3 @@ jobs:
         run: |
           sleep 60s
           echo "PARAMONE VALUE ${{ inputs.paramone }}"
-          echo "PARAMONE DEFAULT VALUE ${{ inputs.paramone.default }}"
