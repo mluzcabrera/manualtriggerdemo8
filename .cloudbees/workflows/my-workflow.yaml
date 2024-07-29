@@ -20,4 +20,5 @@ jobs:
         shell: sh
         run: |
           sleep 60s
-          echo "hello world ${{ inputs.paramone }}"
+          echo "PARAMONE VALUE ${{ inputs.paramone }}"
+          echo "PARAMONE DEFAULT VALUE ${{ inputs.paramone.default }}"
